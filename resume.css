@@ -1,0 +1,435 @@
+body{
+    background-color: rgb(245, 232, 240);
+    margin:0;
+    padding:0;
+    
+}
+.container{
+    display: flex;
+    background-image: url("resume2.webp");
+    background-size: cover;
+  
+}
+
+.box{
+    height:790px;
+    width:500px;
+    border: solid 2px rgb(204, 228, 169);
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    padding:0px;
+    gap:5px;
+    background-color: beige;
+    
+    
+}
+.box:hover{
+    border:solid 2px green;
+}
+.circle{
+    height:300px;
+    width:300px;
+    border-radius:50%;
+    border: solid 5px rgb(66, 62, 62);
+    background-image: url("jasreeen.jpg");
+    background-size:cover;
+}
+.circle:hover{
+    border: solid 5px grey;
+    opacity: 0.5;
+}
+.name{
+    display:flex;
+    flex-direction: column;
+    gap:0%;
+}
+hr{
+    
+    border-top:2px solid #000;
+    width:500px;
+    margin: 20px auto;
+}
+h4{
+    text-decoration: underline;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sign{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.logo{
+
+    display:flex;
+    justify-content: space-around;
+    text-align: left;
+}
+.logos{
+    display:flex;
+    justify-content: space-between;
+}
+.logoss{
+    display:flex;
+    justify-content: space-between;
+}
+.name{
+    width:500px;
+    height:auto;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 0;
+    padding:0;
+    gap:0;
+
+    
+    
+}
+p{
+    line-height:1;
+}
+div{
+    line-height: 0.4;
+}
+.me{
+    width:500px;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+p{
+    line-height: 1;
+    font-size: large;
+    font-weight: bold;
+    color:rgb(167, 89, 26);
+}
+hr{
+    color: pink;
+}
+h2{
+    color: rgb(145, 63, 25);
+}
+.sign{
+    width:500px;
+    height:auto;
+    margin-top:1rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
+    
+    
+}
+.logo{
+    margin-bottom:20px;
+}
+.logos{
+    margin-bottom: 20px;
+
+}
+.logoss{
+    margin-bottom: 20px;
+}
+
+.vertical-line {
+    position: relative;
+    width: 5px;
+    height: 740px; /* Adjust as needed */
+    background-color: #40773b; /* Vertical line color */
+    margin: 0 auto; /* Center the line horizontally */
+  }
+  
+  .point {
+    position: absolute;
+    width: 15px; /* Size of the circle */
+    height: 12px;
+    background-color: rgb(21, 82, 62); /* Circle color */
+    border-radius: 50%;
+    left: -5px; /* Adjust to center the circle horizontally */
+  }
+  
+  .point:nth-child(1) {
+    top: 40px; /* Position the first circle */
+  }
+  
+  .point:nth-child(2) {
+    top: 140px; /* Position the second circle */
+  }
+
+  .horijontal-line:nth-child(3){
+   top :  290px;
+   
+}
+
+  
+  .point:nth-child(4) {
+    top: 340px; /* Position the third circle */
+  }
+  
+  .point:nth-child(5) {
+    top: 470px; /* Position the fourth circle */
+  }
+  .point:nth-child(6) {
+    top: 600px; /* Position the fifth circle */
+  }
+
+
+  .box2{
+  margin-left: 40px;
+  margin-top:30px;
+  }
+  .box3{
+    margin-left: 150px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+    font-size:40px;
+    font-weight: bolder;
+    
+    
+  }
+  
+  #date{
+    line-height: 100px;
+  }
+  #date2{
+    line-height: 290px;
+  }
+  #hr2{
+    position: absolute;
+    transform: translate(-50%);
+    color:#3f743a;
+    width:40px;
+    height: 2px;
+    background-color: #2f492d;
+    border: 1px solid #487244;
+    
+    
+  }
+
+  .box4{
+    margin-left: 40px;
+    margin-top: 30px;
+  }
+#exp{
+    color:rgb(62, 112, 62);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight:bolder;
+
+}
+#school{
+    line-height: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    font-size: larger;
+}
+#college{
+    line-height: 40px;
+    margin-top: 30px;
+    font-size: larger;
+}
+  #sess{
+    line-height: 20px;
+  }
+.horijontal-line
+{
+    position: absolute;
+    width:40px;
+    height:4px;
+    background-color: #3d5e3a;
+    transform: translate(-50%);
+}
+#project{
+    margin-top: 90px;
+    color:rgb(68, 119, 68);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight:bolder;
+
+}
+#mini{
+    line-height: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    font-size: larger;
+
+}
+#mini-name{
+  line-height: 20px;
+}
+#using{
+    line-height: 20px;
+}
+#project2{
+    line-height: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    font-size: large;
+
+}
+#game-name{
+    line-height: 20px;
+}
+a{
+    line-height: 2px;
+}
+#project3{
+    line-height: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    font-size: large;
+
+
+}
+#using3{
+    line-height: 1;
+}
+.a2{
+    line-height: 6;
+    margin-top: 2px;
+}
+button{
+    height: 25px;
+}
+.skills{
+    width:500px;
+    height:auto;
+    margin-top: 30px;
+    display: flex;
+}
+.point1 {
+    position: absolute;
+    width: 15px; /* Size of the circle */
+    height: 12px;
+    background-color: rgb(21, 82, 62); /* Circle color */
+    border-radius: 50%;
+    left: -5px; /* Adjust to center the circle horizontally */
+  }
+  
+.point1:nth-child(1) {
+    top: 60px; /* Position the first circle */
+  }
+  
+  .point1:nth-child(2) {
+    top: 160px; /* Position the second circle */
+  }
+
+  .point1:nth-child(3){
+   top :  260px;
+   
+}
+
+  
+  .point1:nth-child(4) {
+    top: 360px; /* Position the third circle */
+  }
+  
+  .point1:nth-child(5) {
+    top: 460px; /* Position the fourth circle */
+  }
+  .point1:nth-child(6) {
+    top: 560px; /* Position the fifth circle */
+  }
+  .point1:nth-child(7) {
+    top: 560px; /* Position the fifth circle */
+  }
+  .point1:nth-child(8) {
+    top: 660px; /* Position the fifth circle */
+  }
+  
+ 
+  .skills-point{
+    margin-left: 250px;
+    margin-top: 30px;
+     }
+
+  .skill-name{
+    margin-left:60px;
+    margin-top: 30px;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(100, 4, 100);
+  }
+  
+#sk{
+    color:rgb(187, 22, 187);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.design{
+    line-height:100px;
+}
+.C{
+    line-height: 100px;
+}
+.JAVA{
+    line-height: 100px;
+}
+.javascript{
+    line-height: 100px;
+}
+.nodejs{
+    line-height: 100px;
+}
+.DSA{
+    line-height: 100px;
+}
+.html{
+    line-height: 100px;
+}
+.rectangle{
+ margin-left:60px;
+    margin-top: 30px;
+    
+}
+.rec{
+    height: 40px;
+    width:500px;
+    border:2px solid black;
+margin:55px;
+margin-left: 0.1rem;
+}
+.rec1{
+    background: linear-gradient(to right,green 50%,white 50%);
+}
+.rec2{
+    background: linear-gradient(to right,green 70%,white 30%);
+}
+.rec3{
+    background: linear-gradient(to right,green 80%,white 20%);
+}
+.rec4{
+    background: linear-gradient(to right,green 70%,white 30%);
+}
+.rec5{
+    background: linear-gradient(to right,green 60%,white 40%);
+}
+.rec6{
+    background: linear-gradient(to right,green 70%,white 30%);
+}
+.rec7{
+    background: linear-gradient(to right,green 100%,white 0%);
+}
+.last{
+    height:400px;
+    border:2px solid blue;
+    background-color:rgb(105, 105, 216);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   font-size: 50px; 
+}
+    
