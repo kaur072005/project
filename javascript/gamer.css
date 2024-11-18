@@ -1,0 +1,76 @@
+*{
+    padding:0px;
+    margin:opx;
+}
+h1{
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bolder;
+    text-align: center;
+    color:rgb(20, 19, 19);
+
+}
+
+.main{
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+   align-items: center;
+   
+}
+.circle{
+height:150px;
+width:150px;
+border-radius: 70px;
+border: 2px solid;
+object-fit: cover;
+}
+.circle:hover{
+    opacity: 0.5;
+    cursor: pointer;
+    border:5px solid rgb(252, 252, 7);
+}
+#rock{
+    background-image: url("stone.png");
+    background-size: cover;
+}
+#paper{
+    background-image: url("paper.jpg");
+    background-size: cover;
+}
+#scissor{
+    background-image: url("scissor.png");
+    background-size:cover;
+}
+.score-board{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap:5rem;
+    
+
+    
+}
+#userscore,
+#compscore{
+    font-weight: 4rem;
+    font-size: 50px;
+}
+
+.msg-container{
+    text-align: center;
+    margin: 2rem;
+}
+#msg{
+    padding: 2rem;
+    background-color: black;
+    color:white;
+    font-size: 2rem;
+    margin-top: 5rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+}
